@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "prettier/prettier": ["error"],
+    "no-param-reassign": 0,
+    "quotes": [2, "backtick"],
+    "radix": 0
+  }
+}
