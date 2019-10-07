@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
 
-const Guideline = ({ frontmatter }) => {
-  const { title, path } = frontmatter;
+const Guideline = ({ node }) => {
+  const { title } = node.frontmatter;
+  const { slug } = node.fields;
   return (
-    <Link to={path}>
+    <Link to={slug}>
       <h1>{title}</h1>
     </Link>
   );

@@ -15,7 +15,7 @@ export default Template;
 
 export const query = graphql`
   query($pathSlug: String!) {
-    markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
+    markdownRemark(fields: { slug: { eq: $pathSlug } }) {
       html
       frontmatter {
         title

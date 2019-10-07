@@ -9,12 +9,7 @@ const Layout = ({ data }) => {
   return (
     <div>
       {edges.map(edge => {
-        return (
-          <Guideline
-            key={edge.node.frontmatter.path}
-            frontmatter={edge.node.frontmatter}
-          />
-        );
+        return <Guideline key={edge.node.fields.slug} node={edge.node} />;
       })}
     </div>
   );
@@ -27,9 +22,11 @@ export const query = graphql`
     allMarkdownRemark {
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             title
-            path
           }
         }
       }
