@@ -2,10 +2,19 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 
 const Template = props => {
-  const title = props.data.markdownRemark.frontmatter.title;
+  const { title, tags } = props.data.markdownRemark.frontmatter;
   const html = props.data.markdownRemark.html;
+
   return (
     <div>
+      <h1>{title && title}</h1>
+
+      {tags &&
+        tags.map((tag, index) => {
+          return <p key={`tag-${index}`}>{tag}</p>;
+        })}
+
+      <p></p>
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </div>
   );
@@ -19,6 +28,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        tags
       }
     }
   }
