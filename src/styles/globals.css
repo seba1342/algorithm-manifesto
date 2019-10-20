@@ -17,3 +17,23 @@
   font-family: "Recoleta";
   src: url("../../static/fonts/Recoleta/Recoleta-Bold.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../static/fonts/Roboto/Roboto-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../static/fonts/Roboto/Roboto-Italic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../static/fonts/Roboto/Roboto-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../static/fonts/Roboto/Roboto-BoldItalic.ttf") format("ttf");
+}

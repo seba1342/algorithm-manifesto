@@ -1,0 +1,36 @@
+@import "/styles/globals.css";
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Recoleta";
+  font-weight: 500;
+  font-size: 5vw;
+  line-height: 5vw;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.ticker {
+  text-decoration: none;
+}
+
+.ticker:hover {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.link .link__item {
+  margin: 5vh 0;
+  margin-left: 1vw;
+}
