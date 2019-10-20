@@ -23,13 +23,17 @@ exports.createPages = ({ graphql, actions }) => {
           }
         `
       ).then(result => {
-        result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        const posts = result.data.allMarkdownRemark.edges;
+
+        result.data.allMarkdownRemark.edges.forEach(({ node }, index) => {
           const slug = node.fields.slug;
           createPage({
             path: slug,
             component: guidelineTemplate,
             context: {
-              pathSlug: slug
+              pathSlug: slug,
+              prev: index === 0 ? null : posts[index - 1].node,
+              next: index === posts.length - 1 ? null : posts[index + 1].node
             }
           });
 

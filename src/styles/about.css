@@ -1,0 +1,15 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about__content {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  max-width: 600px;
+}

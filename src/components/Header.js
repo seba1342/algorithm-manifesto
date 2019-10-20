@@ -19,6 +19,10 @@ export default () => (
         <Link to={`/`} className="header__link">
           <h1 className="header__title">{data.site.siteMetadata.title}</h1>
         </Link>
+
+        <Link to={`/about`} className="header__link header__link__item">
+          ?
+        </Link>
       </header>
     )}
   />

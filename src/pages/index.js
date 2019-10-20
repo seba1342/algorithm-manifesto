@@ -10,9 +10,11 @@ const Layout = ({ data }) => {
   return (
     <div>
       <Header />
-      {edges.map(edge => {
-        return <Guideline key={edge.node.fields.slug} node={edge.node} />;
-      })}
+      <div style={{ paddingTop: 50 }}>
+        {edges.map(edge => {
+          return <Guideline key={edge.node.fields.slug} node={edge.node} />;
+        })}
+      </div>
     </div>
   );
 };
