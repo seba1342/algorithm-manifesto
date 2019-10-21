@@ -1,39 +1,4 @@
 @font-face {
-  font-family: "Recoleta";
-  src: url("../../static/fonts/Recoleta/Recoleta-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Recoleta";
-  src: url("../../static/fonts/Recoleta/Recoleta-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Recoleta";
-  src: url("../../static/fonts/Recoleta/Recoleta-SemiBold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Recoleta";
-  src: url("../../static/fonts/Recoleta/Recoleta-Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../../static/fonts/Roboto/Roboto-Regular.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../../static/fonts/Roboto/Roboto-Italic.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../../static/fonts/Roboto/Roboto-Bold.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../../static/fonts/Roboto/Roboto-BoldItalic.ttf") format("ttf");
+  font-family: "FKGrotesk-Monospaced";
+  src: url("../../static/fonts/FK/FKGrotesk-Monospaced.otf") format("otf");
 }

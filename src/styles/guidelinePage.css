@@ -7,20 +7,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 50px;
 }
 
 .guideline-page__title {
-  font-size: 48px;
+  font-size: 36px;
   line-height: 48px;
   white-space: normal;
   max-width: 600px;
 }
 
 .guideline-page__content {
-  font-family: "Roboto";
+  font-family: "FKGrotesk-Monospaced";
   font-size: 18px;
-  font-weight: 300;
-  line-height: 24px;
+  line-height: 30px;
   max-width: 600px;
 }
 

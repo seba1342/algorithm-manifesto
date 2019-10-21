@@ -15,7 +15,7 @@ const Template = props => {
   return (
     <>
       <Header />
-      <div className={`guideline-page`}>
+      <div className="guideline-page">
         {prev && (
           <Link to={prev.fields.slug} className="guideline-page__arrow">
             <svg

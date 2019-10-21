@@ -1,1 +1,31 @@
-@import '/styles/globals.css';
+@import "/styles/globals.css";
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  background-color: white;
+  font-family: "FKGrotesk-Monospaced";
+  font-size: 12px;
+  padding-bottom: 12px;
+  padding-top: 50px;
+}
+
+.filter__item {
+  padding: 10px;
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter__item--active,
+.filter__item:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

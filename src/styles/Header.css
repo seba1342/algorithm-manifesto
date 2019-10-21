@@ -13,15 +13,16 @@
 .header__link {
   text-decoration: none;
   color: black;
+  font-family: "FKGrotesk-Monospaced";
 }
 
 .header__link__item {
-  font-size: 24px;
+  font-size: 18px;
   margin: 0 24px;
   right: 0;
   position: absolute;
 }
 
 .header__title {
-  font-size: 24px;
+  font-size: 18px;
 }
