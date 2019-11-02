@@ -55,17 +55,20 @@ const Template = props => {
           </Link>
         )}
 
-        <h1 className={`guideline-page__title`}>{title}</h1>
+        <div className="guideline-page__container">
+          <h1 className={`guideline-page__title`}>{title}</h1>
 
-        <div className={`guideline-page__content`}>
-          {tags &&
-            tags.map((tag, index) => {
-              return <p key={`tag-${index}`}>{tag}</p>;
-            })}
+          <div className={`guideline-page__content`}>
+            {tags &&
+              tags.map((tag, index) => {
+                return <p key={`tag-${index}`}>{tag}</p>;
+              })}
+            <div dangerouslySetInnerHTML={{ __html: html }} />
+          </div>
 
-          <p></p>
-          <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
+
+
       </div>
     </>
   );

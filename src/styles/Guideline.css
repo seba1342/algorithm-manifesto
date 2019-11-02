@@ -38,3 +38,9 @@ h1 {
   margin: 5vh 0;
   margin-left: 1vw;
 }
+
+@media only screen and (max-width: 768px) {
+  .ticker__title {
+    font-size: 10vw;
+  }
+}
