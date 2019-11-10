@@ -9,4 +9,4 @@ Targeted ads are becoming scarily accurate. This is due to your online behaviour
 
 Big technology companies who collect this data use it to target ads to you, but they also sell this data to other companies for research. This is why you may be on one website looking at a specific pair of shoes and while on another website you see advertisement for them.
 
-Subvert algorithmic advertisement by click wrong ads.
+Subvert the algorithmic advertisement by click wrong ads.
