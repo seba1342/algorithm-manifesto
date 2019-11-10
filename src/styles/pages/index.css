@@ -30,10 +30,23 @@
   cursor: pointer;
 }
 
+.about__container {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  margin-top: 50px;
+}
+
 .about__content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  font-family: "FKGrotesk-Monospaced";
+  margin: auto;
+  z-index: 10;
+  background: rgb(255, 255, 255, 0.9);
+  /* border-radius: 48px; */
+  max-width: 600px;
+  padding: 24px;
 }
