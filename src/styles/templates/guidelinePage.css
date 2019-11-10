@@ -4,7 +4,6 @@
   width: 100%;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 50px;
@@ -27,9 +26,33 @@
   line-height: 30px;
 }
 
+.guideline-page__tags {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.guideline-page__tags__item {
+  margin-right: 8px;
+}
+
+.guideline-page__tags__item::after {
+  content: ",";
+}
+
+.guideline-page__tags__item:first-child::after {
+  content: "";
+}
+
+.guideline-page__tags__item:last-child::after {
+  content: ".";
+}
+
 .guideline-page__arrow {
   position: absolute;
   left: 0;
+  top: 50%;
   margin: 0 48px;
   display: block;
 }

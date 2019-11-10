@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import Layout from "../components/Layout";
 
 import "../styles/pages/about.css";
@@ -38,6 +39,10 @@ const AboutPage = props => {
             Enjoy the convenience that algorithms provide, while also being
             aware that the things they provide may not be the entire truth.
           </p>
+          <Link to={`/`} style={{ color: `black` }}>
+            View guidelines
+          </Link>
+          .
         </div>
       </div>
     </Layout>

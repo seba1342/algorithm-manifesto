@@ -52,13 +52,23 @@ const GuidelineTemplate = props => {
         )}
 
         <div className="guideline-page__container">
-          <h1 className={`guideline-page__title`}>{title}</h1>
+          <h1 className="guideline-page__title">{title}</h1>
 
-          <div className={`guideline-page__content`}>
-            {tags &&
-              tags.map((tag, index) => {
-                return <p key={`tag-${index}`}>{tag}</p>;
-              })}
+          <div className="guideline-page__content">
+            <ul className="guideline-page__tags">
+              <li className="guideline-page__tags__item">Tags:</li>
+              {tags &&
+                tags.map((tag, index) => {
+                  return (
+                    <li
+                      className="guideline-page__tags__item"
+                      key={`tag-${index}`}
+                    >
+                      {tag}
+                    </li>
+                  );
+                })}
+            </ul>
             <div dangerouslySetInnerHTML={{ __html: html }} />
           </div>
         </div>
