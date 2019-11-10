@@ -1,25 +1,22 @@
 import React, { useState } from "react";
 import { graphql } from "gatsby";
 
-import Guideline from "../components/Guideline.js";
-import Header from "../components/Header.js";
+import Guideline from "../components/Guideline";
+import Layout from "../components/Layout";
 
-import "../styles/index.css";
+import "../styles/pages/index.css";
 
-const Layout = ({ data }) => {
-  console.log(data);
+const IndexPage = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   const tags = data.allMarkdownRemark.distinct;
   const tagCount = Array.from(data.allMarkdownRemark.group).map(
     tagCount => tagCount.totalCount
   );
 
-  // useState() Hook
   const [selectedFilter, setSelectedFilter] = useState(`all`);
 
   return (
-    <div>
-      <Header />
+    <Layout>
       <div className="filter">
         <div
           className={`filter__item ${selectedFilter === `all` &&
@@ -36,7 +33,7 @@ const Layout = ({ data }) => {
           >{`${tag} (${tagCount[index]})`}</div>
         ))}
       </div>
-      <div style={{}}>
+      <div>
         {edges.map(edge => {
           if (
             Array.from(edge.node.frontmatter.tags).includes(selectedFilter) ||
@@ -46,11 +43,11 @@ const Layout = ({ data }) => {
           }
         })}
       </div>
-    </div>
+    </Layout>
   );
 };
 
-export default Layout;
+export default IndexPage;
 
 export const query = graphql`
   query IndexPageQuery {

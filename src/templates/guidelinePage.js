@@ -1,20 +1,16 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
+import Layout from "../components/Layout";
 
-import Header from "../components/Header.js";
+import "../styles/templates/guidelinePage.css";
 
-import "../styles/guidelinePage.css";
-
-const Template = props => {
+const GuidelineTemplate = props => {
   const { title, tags } = props.data.markdownRemark.frontmatter;
   const html = props.data.markdownRemark.html;
   const { prev, next } = props.pageContext;
 
-  console.log(props);
-
   return (
-    <>
-      <Header />
+    <Layout>
       <div className="guideline-page">
         {prev && (
           <Link to={prev.fields.slug} className="guideline-page__arrow">
@@ -65,16 +61,13 @@ const Template = props => {
               })}
             <div dangerouslySetInnerHTML={{ __html: html }} />
           </div>
-
         </div>
-
-
       </div>
-    </>
+    </Layout>
   );
 };
 
-export default Template;
+export default GuidelineTemplate;
 
 export const query = graphql`
   query($pathSlug: String!) {

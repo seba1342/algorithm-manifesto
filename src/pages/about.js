@@ -1,13 +1,11 @@
 import React from "react";
+import Layout from "../components/Layout";
 
-import Header from "../components/Header.js";
+import "../styles/pages/about.css";
 
-import "../styles/about.css";
-
-const Layout = props => {
+const AboutPage = props => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <div className="about" style={{ paddingTop: 50 }}>
         <div className="about__content">
           <p>
@@ -42,8 +40,8 @@ const Layout = props => {
           </p>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
-export default Layout;
+export default AboutPage;

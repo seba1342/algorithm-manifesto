@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, Link, StaticQuery } from "gatsby";
 
-import "../styles/Header.css";
+import "../styles/components/Header.css";
 
 export default () => (
   <StaticQuery
