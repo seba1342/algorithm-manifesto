@@ -4,7 +4,7 @@ import Transition from "../components/Transition";
 
 import "../styles/components/Layout.css";
 
-export default ({ children }) => {
+export default ({ children, location }) => {
   return (
     <div>
       <Header />
