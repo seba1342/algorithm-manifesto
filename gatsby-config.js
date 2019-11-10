@@ -1,15 +1,12 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
   siteMetadata: {
     title: `Subvert the Algorithm`,
-    description: `This is my cool blog.`
+    description: `A site which aims to raise awareness about how algorithms curate all the content we consume online.`,
+    url: `https://subvert-the-algorithm.com`,
+    twitterUsername: `@seba1342`
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,

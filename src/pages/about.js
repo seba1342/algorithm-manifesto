@@ -19,9 +19,9 @@ const AboutPage = props => {
             served to us in a way that will align to our interests. And
             sometimes that is a good thing. But sometimes it can surround us in
             a cocoon without us even knowing. This cocoon has many names such as
-            confirmation bias or echo chambers. Places where our information is
-            aligned to a common understanding and any deviation from that idea
-            is treated as blasphemy.
+            confirmation bias or an echo chamber. Places where our information
+            is aligned to a common understanding and any deviation from that
+            idea is treated as blasphemy.
           </p>
           <p>
             In a world where information is the most accessible it has ever been
