@@ -1,6 +1,6 @@
 @import "../globals.css";
 
-/* .about {
+.about {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -14,4 +14,4 @@
   line-height: 30px;
   max-width: 600px;
   padding: 24px;
-} */
+}

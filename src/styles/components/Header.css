@@ -23,6 +23,7 @@
   margin: 0 24px;
   right: 0;
   position: absolute;
+  cursor: pointer;
 }
 
 .header__title {
