@@ -4,8 +4,8 @@ tags:
   - data
   - privacy
 ---
-When you're trying to prove you're not a robot on a website's form you're actually training artificial intelligence. Google's reCAPTCHA uses your mouse movements and clicks to determine whether or not you're a human. The 'click on all the images which contain busses' part is used to train Google's DeepMind artificial intelligence. These images are generated through the photos they have from Google Maps StreetView and they use your results to determine what is contained within a particular image. This training is simply to improve their artificial intelligence, which is a culmination of many algorithms.
+Netflix recommends shows based on what you watch and how long you watch it for. Their algorithm is pretty accurate too. Why not let it work in your favour and make them think you're smart at the same time. Click on documentaries and Netflix will serve you more. Then if the FBI ever ask for your Netflix recommendations they'll think you're a genius. 
 
-The difference between artificial intelligence (AI) and an algorithm is that the AI selects the best combination of algorithms to complete a task based on the provided data set without human intervention. 
+On top of this, you'll be served content to binge that will give you more knowledge. And everyone knows that knowledge is power.
 
-Subvert the algorithm, stop training artificial intelligence.
+Subvert the algorithm, watch more docos.
