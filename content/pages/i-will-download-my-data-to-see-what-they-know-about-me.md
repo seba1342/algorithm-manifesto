@@ -4,13 +4,9 @@ tags:
   - data
   - convenience
 ---
-Popular services such as Facebook, Instagram and Google offer tools for people to download the data they have on you. The following links will take you to the place download your data:
+Popular services such as Facebook, Instagram and Google offer tools for people to download the data they have on you. 
 
-* <https://www.instagram.com/download/request/>
-* <https://www.facebook.com/your_information/>
-* <https://takeout.google.com/>
-
-The Facebook link offers a handy tool which visualises this data in your browser, so you won't need to download it.
+Facebook offers a handy tool which visualises this data in your browser, so you won't need to download it.
 
 To understand what type of data you get, let's unpack the Instagram data download. You will get information about:
 
