@@ -3,6 +3,7 @@ title: 'I will use https://duckduckgo.com to protect my privacy.'
 tags:
   - privacy
   - information
+  - tools
 ---
 [Duckduckgo](https://duckduckgo.com/) is a search engine that doesn't track you. Contrary to Google, [Duckduckgo](https://duckduckgo.com/) doesn't track your searches, provide targeted advertisement or store your personal information. 
 
